@@ -52,9 +52,8 @@ const Header = () => {
               </div>
             </nav>
 
-            {/* Right side buttons and search */}
+
             <div className="hidden md:flex items-center space-x-4">
-              {/* Auth Buttons */}
               <div className="flex items-center space-x-3">
                 <Link
                   to="/signup"
@@ -62,14 +61,9 @@ const Header = () => {
                 >
                   Sign Up
                 </Link>
-                <div>
-                  {/* <button className="px-4 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg hover:from-purple-700 hover:to-blue-700 transition-colors font-medium shadow-md">
-                  Connect Wallet
-                </button> */}
 
-                  <div>
-                    <appkit-button /> 
-                    </div>
+                <div>
+                  <appkit-button />
                 </div>
                 <button
                   className="p-2 rounded-full bg-gray-100 text-gray-600 hover:bg-gray-200 transition-colors"
@@ -81,7 +75,6 @@ const Header = () => {
             </div>
           </div>
 
-          {/* Mobile Navigation */}
           {menuOpen && (
             <div className="md:hidden">
               <div className="px-2 pt-2 pb-3 space-y-1">
@@ -117,7 +110,6 @@ const Header = () => {
           )}
         </div>
       </header>
-      {/* Spacer div to push content below fixed header */}
       <div className="h-16" />
     </>
   );

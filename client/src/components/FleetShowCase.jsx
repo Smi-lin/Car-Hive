@@ -12,7 +12,7 @@ const FleetShowcase = () => {
   const [activeCategory, setActiveCategory] = useState("All");
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const categories = ["All", "Luxury", "Business", "Sport", "Crossover"];
+  const categories = ["All", "Luxury", "Business", "Weddings", "Crossover"];
 
   const fleet = [
     {
